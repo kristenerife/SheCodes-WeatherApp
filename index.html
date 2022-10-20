@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+      <div class="container">
+          <div class="weather-app">
+              <form class="search-form" id="search-form">
+    <div class="row">
+      <div class="col-6">
+            <input 
+            id="query"
+            class = "query2" 
+            type="search" 
+            placeholder="Enter city here..." />
+      </div>
+            <div class="col-3">
+            <input 
+            id="hit" 
+            type="submit" 
+            value="Search!"
+            class="search-button w-100"/>
+           </div>
+ 
+      <div class="col-3">
+          <button
+          class="button-1 w-100"
+          id="cl-button"
+          >
+          Current
+        </button>
+        </div>
+      </div>
+    <br>
+
+      <div class="row">
+        <div  class="col-6">
+                  <h1></h1>
+                  <ul>
+                  <li <span id="divTemp"></span></li>
+                  <li <span id="description"></span></li>
+                  <li id="today">Date</li>
+                  </ul>
+        </div>
+           <div class="col-6">
+             <ul>
+               <li>Wind: <span id="wind"></span> km/h</li>
+               <li>Humidity: <span id="humidity"></span>%</li>
+              </div>     
+      </div>
+
+      <br />
+      <h3>Forecast</h3>
+
+          <div class="row">           
+            <div class="col">             
+                    <div class="card">
+                        <div class="card-body">
+              <div class="row">Tuesday</div>
+              <div class="row">21°C</div>
+              <div class="row">⛅</div>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+          
+                    <div class="card">
+                        <div class="card-body">
+              <div class="row">Wednesday</div>
+              <div class="row">22°C</div>
+              <div class="row">⛅</div>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+               
+                    <div class="card">
+                        <div class="card-body">
+              <div class="row">Thursday</div>
+              <div class="row">21°C</div>
+              <div class="row">🌞</div>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+               
+                    <div class="card">
+                        <div class="card-body">
+              <div class="row">Friday</div>
+              <div class="row">23°C</div>
+              <div class="row">☁️</div>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+                
+                    <div class="card">
+                        <div class="card-body">
+              <div class="row">Saturday</div>
+              <div class="row">23°C</div>
+              <div class="row">🌦</div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <script src="src/index.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

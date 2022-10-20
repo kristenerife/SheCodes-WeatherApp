@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+button {
+  background-color: chartreuse;
+}
+
+.search-button {
+  background-color: cyan;
+}
