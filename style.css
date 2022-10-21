@@ -14,3 +14,11 @@ button {
 .search-button {
   background-color: cyan;
 }
+
+.day-fc.1,
+.day-fc.2,
+.day-fc.3,
+.day-fc.4,
+.day-fc.5 {
+  display: inline-block;
+}
